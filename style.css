@@ -2,41 +2,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 body {
-    background-color: #e4f4ff;     /* soft museum-morning blue */
-    color: #222222;
-    font-family: "Nunito", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 2rem;
+  background-color: #e4f4ff;
+  color: #222222;
+  font-family: "Nunito", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
 }
 
 #container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 1.5rem 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#container img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
 }
 
 h1 {
-    font-size: 2rem;
-    color: #145a76;        /* deep teal */
-    margin-top: 0;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #145a76;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 p {
-    font-size: 1rem;
-    margin: 0 0 0.8rem;
+  font-size: 1rem;
+  margin: 0 0 0.8rem;
 }
 
 a {
-    color: #0b63c3;        /* link color */
-    text-decoration: underline;
-    font-weight: 700;
+  color: #0b63c3;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
